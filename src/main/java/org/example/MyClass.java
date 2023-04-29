@@ -13,7 +13,7 @@ public class MyClass {
 
 
     public MyClass(int principal,float annualInterest,byte years,byte numberOfPaymentsMade) {
-        assert principal>=1000&&principal<=1000000 : "invalid principal";
+        assert principal>=1000&&principal<=1000000:"invalid principal";
         assert annualInterest>=1&&annualInterest<=30 : "invalid annual interest";
         assert years >=1&&years<=30 : "invalid years";
 
